@@ -20,7 +20,6 @@ public class Ciclatore {
 
 	public int nextNumber() {
 		int number = list[currentIndex];
-//		currentIndex = (currentIndex + 1) % list.length;
 		currentIndex++;
 		return number;
 	}
